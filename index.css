@@ -1,0 +1,71 @@
+h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', 'Noto', sans-serif;
+}
+p{
+    text-align: center;
+    font-family: 'Roboto', 'Noto', sans-serif;
+}
+button{
+    text-align: center;
+    border-color: black;
+    margin: auto;
+}
+div{
+
+    text-align: center;
+    margin-bottom: 25px;
+}
+.Black{
+    color: white;
+    background-color: black;
+    
+}
+/* .column{
+   
+    width: 50%;
+
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+*/
+.row{
+    display: flex;
+}
+.column{
+    flex: 50%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width:600px) {
+    p{
+        font-size: 15px;
+    }
+    img{
+          width: 500px;
+    }
+    .row{
+        display: inline;
+    }
+    
+}
+@media  screen and (max-width: 900px) and (min-width: 600px)  {
+    p{
+        font-size: 20px;
+    }
+        img{
+            width: 750px;
+            height: 350px;
+        }
+        .row{
+            display: inline;
+        }
+    }
+   
+}
